@@ -3,7 +3,8 @@ Code HW - 5ahw HTL Innsbruck, Austria - Prime Numbers
 
 ## How does it work?
 You can simply set a number and you'll get all Primes from 2 to that set value as a return. (ArrayList)
-It is not possible to set the value to anything besides an Integer. 
+
+> It is not possible to set the value to anything besides an Integer. 
 
 [Wikipedia](https://en.wikipedia.org/wiki/Prime_number)
 
