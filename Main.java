@@ -36,20 +36,23 @@ public class Main {
 	public static ArrayList<Integer> prime(int value) {
 		ArrayList<Integer> list = new ArrayList<Integer>();
 		boolean prim;
+		
 		for(int i = 0; i <= value; i++){
+			
 			prim = true;
-      for (int j = 2; j <= i/2; j++) {
-        if (i % j == 0) {
-          prim = false;
-          break;
-        }
-      }
+      	
+      		for (int j = 2; j <= i/2; j++) {
+        		if (i % j == 0) {
+        			prim = false;
+        			break;
+        		}
+      		}
 			
 			if(prim){
 				list.add(i);
 			}
 		}
-		return list;
+	return list;
 	}
 }
 
