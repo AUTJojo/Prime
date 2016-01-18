@@ -8,7 +8,7 @@ You can simply set a number and you'll get all Primes from 2 to that set value a
 
 [Wikipedia](https://en.wikipedia.org/wiki/Prime_number)
 
-#### Examaple:
+#### Example:
 
 ```
 prime(int n) {
